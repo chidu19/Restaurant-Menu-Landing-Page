@@ -1,0 +1,139 @@
+.brand {
+    h4 {
+        font-size: var(--font-size-7);
+        font-weight: 900;
+    }
+
+    p {
+        font-size: var(--font-size-1);
+        margin-top: 0.5rem;
+    }
+}
+
+.heading-primary {
+    font-size: var(--font-size-10);
+    font-weight: 900;
+}
+
+.heading-secondary {
+    font-size: var(--font-size-9);
+    font-weight: 900;
+}
+
+.description {
+    width: 70%;
+
+    p {
+        font-size: var(--font-size-4);
+        margin-top: 3rem;
+        line-height: 1.6;
+    }
+}
+
+.discount-tag h3 {
+    margin: auto;
+    color: #fff;
+    font-size: var(--font-size-8);
+    font-weight: 900;
+}
+
+.app-screen > h3 {
+    font-size: var(--font-size-7);
+    font-weight: 900;
+    margin-top: 1.5rem;
+}
+
+.menu-item-details {
+    h3 {
+        font-weight: 900;
+    }
+
+    h4 {
+        font-weight: 900;
+        margin-top: 0.8rem;
+    }
+
+    p {
+        font-weight: 400;
+        margin-top: 0.5rem;
+        color: rgba($color: #000000, $alpha: 0.8);
+    }
+
+    // For card type 1
+    &-1 {
+        h3 {
+            font-size: 2rem;
+        }
+
+        h4 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+        }
+    }
+
+    // For card type 2 and horizontal
+    &-2,
+    &-horizontal {
+        h3 {
+            font-size: 1.3rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    // For card type vertical
+    &-vertical {
+        h3 {
+            font-size: 2rem;
+        }
+
+        h4 {
+            font-size: 1.6rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-top: 2rem;
+            line-height: 1.5;
+            color: #000;
+        }
+    }
+}
+
+.clock h5{
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+.contact-us {
+    h2{
+        font-size: 3.5rem;
+    }
+
+    a {
+        font-size: var(--font-size-5);
+    }
+}
+
+.links-group {
+    h3 {
+        font-size: var(--font-size-7);
+        font-weight: 900;
+    }
+
+    & > p,
+    & > a {
+        font-size: var(--font-size-2);
+    }
+}

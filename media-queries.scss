@@ -1,0 +1,272 @@
+@media(min-width: 1600px) {
+    html{
+        font-size: 75%;
+    }
+}
+
+@media(max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    .description p,
+    .menu-item-details-vertical p {
+        line-height: 1.8;
+    }
+}
+
+@media(max-width: 1100px) {
+    .description {
+        width: 80%;
+    }
+
+    .section-3 {
+        column-gap: 5rem;
+    }
+}
+
+@media(max-width: 1050px) {
+    html {
+        font-size: 50%;
+        --font-size-1: 1.2rem;
+        --font-size-2: 1.5rem;
+        --font-size-4: 1.6rem;
+    }
+
+    .brand h4{
+        font-size: var(--font-size-9);
+    }
+
+    .food-icons{
+        width: 4rem;
+    }
+}
+
+@media(max-width: 950px) {
+    br {
+        display: none;
+    }
+
+    .header-section {
+        margin-top: 5rem;
+    }
+
+    .header-image img {
+        width: 40rem;
+    }
+
+    .section-1,
+    .section-2,
+    .section-3 {
+        grid-template-columns: 1fr;
+
+        & .description {
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    .section-1,
+    .section-2 {
+        padding: 0 15rem;
+    }
+
+    .section-1 .menu-items-column {
+        margin-top: 10rem;
+    }
+
+    .section-1 {
+        margin-bottom: 16rem;
+    }
+
+    .pasta-image {
+        margin-top: 5rem;
+    }
+
+    .section-3 {
+        justify-items: center;
+        row-gap: 5rem;
+        margin: 12rem auto 0;
+    }
+
+    .app-download {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .download-button{
+        width: 20rem;
+    }
+
+    .app-screenshots,
+    .menu-items-column {
+        grid-row-start: 2;
+    }
+
+    .app-screenshots{
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+
+    .app-screen {
+        margin-top: 12rem;
+        transform: scale(1.4);
+
+        &:last-of-type{
+            display: none;
+        }
+    }
+
+    .menu-item-card-1{
+        transform: scale(1.1);
+        margin: 2rem 0 0;
+
+        &:first-of-type{
+            margin-right: 5rem;
+        }
+    }
+}
+
+@media(max-width: 850px) {
+    .header-section {
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+
+    .section-1,
+    .section-2 {
+        padding: 0 10rem;
+    }
+
+    .footer-links {
+        padding: 0 10rem;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 5rem;
+        justify-items: stretch;
+    }
+
+    .links-group-2,
+    .links-group-4 {
+        justify-self: center;
+    }
+}
+
+@media(max-width: 750px) {
+    .header-image img {
+        width: 35rem;
+    }
+
+    .section-1,
+    .section-2 {
+        padding: 0 5rem;
+
+        & .description {
+            width: 80%;
+        }
+    }
+}
+
+@media(max-width: 700px) {
+    .footer-links {
+        padding: 0;
+    }
+}
+
+@media(max-width: 650px) {
+    .header-section {
+        grid-template-columns: 1fr;
+        row-gap: 6rem;
+    }
+
+    .header-image {
+        justify-self: center;
+
+        img {
+            width: 40rem;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    html {
+        font-size: 45%;
+    }
+
+    .section-1, .section-2 {
+        padding: 0;
+    }
+
+    .download-button{
+        width: 24rem;
+    }
+
+    footer {
+        padding: 10rem 5rem;
+    }
+}
+
+@media(max-width: 450px) {
+    html {
+        font-size: 40%;
+        --font-size-1: 1.8rem;
+        --font-size-2: 2rem;
+        --font-size-4: 2.2rem;
+        --font-size-9: 4rem;
+        --font-size-10: 6rem;
+    }
+
+    .food-icons{
+        width: 5rem;
+    }
+
+    .food-categories-1 button{
+        border-radius: 1.2rem;
+        padding: 1.4rem 1.6rem;
+    }
+
+    .header-image img{
+        width: 50rem;
+    }
+
+    .section-3{
+        padding: 0;
+    }
+
+    .app-download p{
+        padding: 0 5rem;
+    }
+
+    .app-screen {
+        margin: 20rem 0 10rem;
+        transform: scale(1.7);
+    }
+
+    footer .description{
+        width: 100%;
+    }
+
+    .contact-us {
+        grid-template-columns: 1fr 1fr;
+
+        a{
+            width: 90%;
+            font-size: var(--font-size-2);
+            padding: 2rem;
+        }
+    }
+}
+
+@media(max-width: 400px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+
+@media(max-width: 330px) {
+    html {
+        font-size: 30%;
+    }
+}

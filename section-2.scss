@@ -1,0 +1,27 @@
+.section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    padding: 0 10rem;
+}
+
+.pasta-image {
+    position: relative;
+    box-shadow: 0 2rem 6rem rgba($color: #000000, $alpha: 0.4);
+    border-radius: 100%;
+
+    img {
+        width: 40rem;
+    }
+}
+
+.discount-tag {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+}
